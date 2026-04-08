@@ -41,6 +41,8 @@ body::before { content:''; position:fixed; inset:0; background:radial-gradient(e
 .btn:hover { background:var(--bg-card-hover); border-color:var(--text-muted); }
 .btn-accent { background:var(--accent); border-color:var(--accent); color:#fff; font-weight:600; }
 .btn-accent:hover { background:#e55a1a; border-color:#e55a1a; }
+.auth-submit { background:#8b5cf6; border-color:#8b5cf6; color:#fff; font-weight:600; }
+.auth-submit:hover { background:#7c3aed; border-color:#7c3aed; }
 
 /* Auth */
 .auth-container { max-width:400px; margin:80px auto; text-align:center; }
