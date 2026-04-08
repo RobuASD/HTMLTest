@@ -59,7 +59,8 @@ body::before { content:''; position:fixed; inset:0; background:radial-gradient(e
 .form-select { font-family:var(--font-display); cursor:pointer; appearance:none; background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' fill='%238b949e' viewBox='0 0 16 16'%3E%3Cpath d='M8 11L3 6h10z'/%3E%3C/svg%3E"); background-repeat:no-repeat; background-position:right 12px center; }
 .form-select option { background:var(--bg-panel); color:var(--text); }
 .form-textarea { font-family:var(--font-display); resize:vertical; min-height:70px; line-height:1.5; }
-.auth-submit { width:100%; padding:12px; margin-top:8px; }
+.auth-submit { width:100%; padding:12px; margin-top:8px; background:#3b82f6; border-color:#3b82f6; }
+.auth-submit:hover { background:#2563eb; border-color:#2563eb; }
 .auth-msg { margin-top:12px; font-size:0.82rem; text-align:center; min-height:20px; }
 .auth-msg.error { color:var(--danger); }
 .auth-msg.ok { color:var(--success); }
