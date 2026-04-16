@@ -1,0 +1,8 @@
+{
+    "chat.tools.terminal.autoApprove": {
+        "/^git checkout dev 2>&1 ; git checkout -b dev origin/dev$/": {
+            "approve": true,
+            "matchCommandLine": true
+        }
+    }
+}
